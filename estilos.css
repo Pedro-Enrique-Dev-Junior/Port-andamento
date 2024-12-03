@@ -1,0 +1,182 @@
+/* Estilos gerais */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #333333;
+    background-color: #E5E5E5;
+  }
+  
+  /* Header */
+  header {
+    background: #002B5B;
+    color: #fff;
+    padding: 1.5rem 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 2rem;
+    margin: 0;
+  }
+  
+  header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0 0;
+  }
+  
+  header nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  header nav ul li a {
+    color: #FF6F3C;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  header nav ul li a:hover {
+    color: #FFD1BF;
+  }
+  
+  /* Seções */
+  section {
+    padding: 3rem 1rem;
+    text-align: center;
+  }
+  
+  #sobre p {
+    max-width: 600px;
+    margin: 1rem auto;
+    font-size: large;
+    font-style: italic;
+  }
+  
+  /* Container de Projetos */
+.projetos-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+    padding: 1rem;
+  }
+  
+  /* Cartão de Projeto */
+  .projeto {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .projeto:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Títulos e descrições */
+  .projeto h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+    color: #002B5B;
+  }
+  
+  .projeto p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 1rem;
+  }
+  
+  /* Botão */
+  .btn-projeto {
+    display: inline-block;
+    background-color: #FF6F3C;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-projeto:hover {
+    background-color: #FF5722;
+  }
+
+  .btn-enviar{
+    font-size: 15px;
+  }
+
+  /* Divisor entre seções */
+.divisor {
+    width: 80%;
+    height: 2px;
+    background: linear-gradient(to right, #002B5B, #FF6F3C);
+    margin: 2rem auto;
+    border: none;
+  }
+  
+  
+  
+  /* Contato */
+  #contato form {
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #contato form input,
+  #contato form textarea {
+    margin-bottom: 1rem;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+
+  .form-mensagem{
+
+color: pink;
+
+
+
+    /* parei aquiii */
+
+
+
+
+
+  }
+  
+  #contato form button {
+    background: #FF6F3C;
+    color: #fff;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  #contato form button:hover {
+    color: #FF6F3C;
+    background: #fff;
+  }
+  
+  /* Footer */
+  footer {
+    background: #002B5B;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+  }
+  
